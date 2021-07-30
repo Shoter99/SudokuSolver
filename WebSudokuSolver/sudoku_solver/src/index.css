@@ -29,13 +29,15 @@ If you need more, that's where to get'em.
 
 }
 .board_wrapper{
-  width: 80vw;
-  height: 50vh;
+  text-align: center;
+  width: 300px;
+  height: 300px;
   background-color: var(--plat);
   margin: 2.5rem;
-  margin-left: 10%;
   margin-bottom: 2.5rem;
 }
+@media screen and (min-width: )
+
 .solve_btn button{
   border: none;
   padding: .4rem 1.2rem;
