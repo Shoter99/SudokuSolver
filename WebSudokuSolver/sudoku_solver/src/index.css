@@ -1,0 +1,53 @@
+:root{
+  --black: #000;
+  --blue: #14213D;
+  --orange: #FCA311;
+  --plat: #E5E5E5;
+  --white: #fff;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+
+/* ========================================================
+This pattern is downloaded from www.subtlepatterns.com 
+If you need more, that's where to get'em.
+======================================================== */
+  background-image: url(dark-honeycomb.png);
+  font-family: 'Roboto Mono', monospace;
+}
+.header{
+  font-size: 1.7em;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.664);
+
+  color: var(--blue);
+  font-weight: bold;
+
+}
+.board_wrapper{
+  width: 80vw;
+  height: 50vh;
+  background-color: var(--plat);
+  margin: 2.5rem;
+  margin-left: 10%;
+  margin-bottom: 2.5rem;
+}
+.solve_btn button{
+  border: none;
+  padding: .4rem 1.2rem;
+  background-color: var(--plat);
+  color: var(--blue);
+  font-size: 1.2em;
+  border-radius: 15px;
+  opacity: .8;
+
+}
+.solve_btn button:hover{
+  font-size: 1.3em;
+  cursor: pointer;
+  opacity: 1;
+}
